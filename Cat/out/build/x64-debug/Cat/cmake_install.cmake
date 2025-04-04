@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP/CppProjects/Cat/Cat
+# Install script for directory: D:/CPP/GithubProject/Cat/Cat/Cat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/CPP/CppProjects/Cat/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "D:/CPP/GithubProject/Cat/Cat/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

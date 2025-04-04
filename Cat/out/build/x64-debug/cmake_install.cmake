@@ -1,8 +1,8 @@
-# Install script for directory: D:/CPP/CppProjects/Cat
+# Install script for directory: D:/CPP/GithubProject/Cat/Cat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/CPP/CppProjects/Cat/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "D:/CPP/GithubProject/Cat/Cat/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/CPP/CppProjects/Cat/out/build/x64-debug/Cat/cmake_install.cmake")
+  include("D:/CPP/GithubProject/Cat/Cat/out/build/x64-debug/Cat/cmake_install.cmake")
 
 endif()
 
@@ -53,6 +53,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/CPP/CppProjects/Cat/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/CPP/GithubProject/Cat/Cat/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
